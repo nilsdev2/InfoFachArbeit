@@ -12,9 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome'); 
 });
 
 Route::get('/ifa', function() {
-    return view('ifa'); 
+    return view('ifa', ['test' => 'asd']); 
 }); 

@@ -4,5 +4,5 @@
     @endsection
 
     @section('mainContent')
-        <p>example text</p>
+        <p>{{$test}}</p>
     @endsection
