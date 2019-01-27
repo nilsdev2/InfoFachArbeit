@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/ifa', 'ifaController@index'); 
+Route::get('/projects', 'projectsController@index'); 
