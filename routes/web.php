@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome'); 
 });
 
-Route::get('/ifa', function() {
-    return view('ifa', ['test' => 'asd']); 
-}); 
+Route::get('/ifa', 'ifaController@index'); 
