@@ -16,4 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/ifa', 'ifaController@index'); 
+
 Route::get('/projects', 'projectsController@index'); 
+Route::get('/projects/new_project', 'projectsController@new_project_form'); 
+Route::post('/projects/new_project', 'projectsController@new_project'); 
