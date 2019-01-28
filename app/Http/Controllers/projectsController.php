@@ -9,6 +9,6 @@ class projectsController extends Controller
 {
     public function index() {
         $projects = \App\Project::all(); 
-        return view('projects', ['projects' => $projects]); 
+        return view('projects.index', ['projects' => $projects]); 
     }
 }
