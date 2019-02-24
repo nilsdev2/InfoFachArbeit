@@ -4,7 +4,8 @@
     @endsection
 
     @section('mainContent')
+    <h1>Project-Manager</h1>
     @foreach ($projects as $project)
-        <p>{{$project->title}} - {{$project->desc}}</p>
-    @endforeach
-    @endsection
+        <p>{{$project->id}}. <a href="projects/{{$project->id}}">{{$project->title}}</a></p>
+    @endforeach 
+@endsection

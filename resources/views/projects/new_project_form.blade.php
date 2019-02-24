@@ -4,6 +4,7 @@
     @endsection
 
     @section('mainContent')
+    
         <form method="POST" action="/projects/new_project">
             @csrf
             <input type="text" name="new_project_title" required placeholder="Der Titel von dem neuen Project">
